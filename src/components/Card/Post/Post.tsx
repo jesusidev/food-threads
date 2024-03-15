@@ -6,13 +6,6 @@ import { User } from '../../../types/types';
 import Link from 'next/link';
 import { CommentWithUser } from '../../../utils/combineUsersPosts';
 
-const avatarsSample = [
-  'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-4.png',
-  'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-6.png',
-  'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-7.png',
-  'https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-8.png',
-];
-
 interface CardPostProps {
   createdAt: string;
   content: string;
