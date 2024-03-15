@@ -39,7 +39,7 @@ export function CardPost({
     year: 'numeric',
   });
   return (
-    <Card withBorder padding="lg" radius="md" miw={600} maw={600}>
+    <Card withBorder padding="lg" radius="md" w={'100%'}>
       <Group justify="space-between">
         <Group>
           <Avatar src={user.avatar} radius="xl" />
@@ -54,7 +54,9 @@ export function CardPost({
       </Group>
 
       <Card.Section className={classes.content}>
-        {imgPost && <img src={imgPost} alt="post" />}
+        {imgPost && (
+          <img src={imgPost} alt="post" className={classes.postImg} />
+        )}
         <Text size="lg" lineClamp={3}>
           {content}
         </Text>

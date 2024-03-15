@@ -23,14 +23,7 @@ interface CardUserProps {
 export function CardUser({ user, userAccount }: CardUserProps) {
   const [opened, { open, close }] = useDisclosure(false);
   return (
-    <Paper
-      radius="md"
-      withBorder
-      className={classes.card}
-      mt={20}
-      miw={600}
-      maw={600}
-    >
+    <Paper radius="md" withBorder className={classes.card} mt={20} w={'100%'}>
       <Modal opened={opened} onClose={close} centered>
         <Textarea
           placeholder="Whats on your mind..."
