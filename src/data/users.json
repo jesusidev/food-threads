@@ -1,0 +1,102 @@
+[
+  {
+    "id": "1",
+    "firstName": "Jesus",
+    "lastName": "Guzman",
+    "email": "jesus@guzman1.com",
+    "userName": "JesusG",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-2.png",
+    "followers": [{ "id": "2" }, { "id": "3" }, { "id": "4" }, { "id": "5" }],
+    "following": [{ "id": "6" }, { "id": "7" }]
+  },
+  {
+    "id": "2",
+    "firstName": "Jesus",
+    "lastName": "Martinez",
+    "email": "jesus@martinez2.com",
+    "userName": "JesusM",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-3.png",
+    "followers": [{ "id": "1" }, { "id": "3" }, { "id": "4" }],
+    "following": [{ "id": "5" }, { "id": "6" }]
+  },
+  {
+    "id": "3",
+    "firstName": "Roger",
+    "lastName": "Williams",
+    "email": "roger@williams3.com",
+    "userName": "RogerW",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-4.png",
+    "followers": [{ "id": "1" }, { "id": "2" }, { "id": "5" }],
+    "following": [{ "id": "6" }, { "id": "7" }]
+  },
+  {
+    "id": "4",
+    "firstName": "Steve",
+    "lastName": "Johnson",
+    "email": "steve@johnson4.com",
+    "userName": "SteveJ",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-5.png",
+    "followers": [{ "id": "1" }, { "id": "3" }, { "id": "7" }],
+    "following": [{ "id": "5" }, { "id": "8" }]
+  },
+  {
+    "id": "5",
+    "firstName": "Mary",
+    "lastName": "Lee",
+    "email": "mary@lee5.com",
+    "userName": "MaryL",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-6.png",
+    "followers": [{ "id": "2" }, { "id": "3" }, { "id": "4" }],
+    "following": [{ "id": "1" }, { "id": "6" }]
+  },
+  {
+    "id": "6",
+    "firstName": "Chad",
+    "lastName": "Brown",
+    "email": "chad@brown6.com",
+    "userName": "ChadB",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-7.png",
+    "followers": [{ "id": "5" }, { "id": "7" }, { "id": "8" }],
+    "following": [{ "id": "2" }, { "id": "3" }]
+  },
+  {
+    "id": "7",
+    "firstName": "Matt",
+    "lastName": "Davis",
+    "email": "matt@davis7.com",
+    "userName": "MattD",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-8.png",
+    "followers": [{ "id": "2" }, { "id": "4" }, { "id": "6" }],
+    "following": [{ "id": "8" }, { "id": "9" }]
+  },
+  {
+    "id": "8",
+    "firstName": "George",
+    "lastName": "Miller",
+    "email": "george@miller8.com",
+    "userName": "GeorgeM",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-9.png",
+    "followers": [{ "id": "6" }, { "id": "7" }, { "id": "9" }],
+    "following": [{ "id": "5" }, { "id": "10" }]
+  },
+  {
+    "id": "9",
+    "firstName": "Elizabeth",
+    "lastName": "Garcia",
+    "email": "elizabeth@garcia9.com",
+    "userName": "ElizabethG",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-8.png",
+    "followers": [{ "id": "7" }, { "id": "8" }, { "id": "10" }],
+    "following": [{ "id": "3" }, { "id": "4" }]
+  },
+  {
+    "id": "10",
+    "firstName": "Lynda",
+    "lastName": "Wilson",
+    "email": "lynda@wilson10.com",
+    "userName": "LyndaW",
+    "avatar": "https://raw.githubusercontent.com/mantinedev/mantine/master/.demo/avatars/avatar-7.png",
+    "followers": [{ "id": "8" }, { "id": "9" }],
+    "following": [{ "id": "2" }, { "id": "5" }]
+  }
+]

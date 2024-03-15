@@ -1,0 +1,15 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  gap: rem(25px);
+  justify-content: center;
+  max-width: rem(600px);
+  padding-left: var(--mantine-spacing-md);
+  padding-right: var(--mantine-spacing-md);
+}

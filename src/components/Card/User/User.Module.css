@@ -1,0 +1,15 @@
+.card {
+    padding: var(--mantine-spacing-xl);
+    padding-top: calc(var(--mantine-spacing-xl) * 1.5 + rem(20px));
+    position: relative;
+}
+
+.icon {
+    left: calc(50% - rem(30px));
+    position: absolute;
+    top: rem(-20px);
+}
+
+.title {
+    text-align: center;
+}

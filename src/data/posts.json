@@ -1,0 +1,95 @@
+[
+  {
+    "id": 1,
+    "userID": 1,
+    "content": "Discovering the art of making homemade pasta - it's easier than you think!",
+    "likes": 0,
+    "img_url": "https://picsum.photos/500/300?random=2",
+    "status": "public",
+    "createdAt": "2024-01-01T00:00:00.000Z",
+    "updatedAt": "2024-01-01T00:00:00.000Z",
+    "comments": [
+      {
+        "id": 1,
+        "userID": 2,
+        "postID": 1,
+        "content": "I've always wanted to try this! Do you have a favorite recipe?",
+        "createdAt": "2024-01-01T12:00:00.000Z"
+      },
+      {
+        "id": 2,
+        "userID": 3,
+        "postID": 1,
+        "content": "Homemade pasta is the best! Tastes so much better than store-bought.",
+        "createdAt": "2024-01-01T13:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "userID": 6,
+    "content": "Exploring the world one spice at a time. Today's focus: Cumin!",
+    "likes": 5,
+    "img_url": "https://picsum.photos/500/300?random=3",
+    "status": "public",
+    "createdAt": "2024-02-01T08:30:00.000Z",
+    "updatedAt": "2024-02-01T08:30:00.000Z",
+    "comments": [
+      {
+        "id": 3,
+        "userID": 1,
+        "postID": 2,
+        "content": "Cumin's earthy flavor is perfect for chili recipes!",
+        "createdAt": "2023-02-01T09:00:00.000Z"
+      },
+      {
+        "id": 4,
+        "userID": 4,
+        "postID": 2,
+        "content": "Any tips for using cumin in vegetarian dishes?",
+        "createdAt": "2023-02-01T09:15:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 3,
+    "userID": 7,
+    "content": "Had the most amazing vegan burger today! The future of fast food is here.",
+    "likes": 12,
+    "img_url": "https://picsum.photos/500/300?random=4",
+    "status": "public",
+    "createdAt": "2023-03-01T10:00:00.000Z",
+    "updatedAt": "2023-03-01T10:00:00.000Z",
+    "comments": []
+  },
+  {
+    "id": 4,
+    "userID": 3,
+    "content": "Who else loves the combination of chocolate and chili? A surprising match made in heaven!",
+    "likes": 8,
+    "img_url": "https://picsum.photos/500/300?random=5",
+    "status": "public",
+    "createdAt": "2023-04-01T11:30:00.000Z",
+    "updatedAt": "2023-04-01T11:30:00.000Z",
+    "comments": [
+      {
+        "id": 5,
+        "userID": 6,
+        "postID": 4,
+        "content": "Absolutely! The spiciness adds such a unique kick to the sweetness.",
+        "createdAt": "2023-04-01T12:00:00.000Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "userID": 10,
+    "content": "Sunday meal prep going strong! This week: Quinoa salad, roasted veggies, and lemon herb chicken.",
+    "likes": 15,
+    "img_url": "https://picsum.photos/500/300?random=6",
+    "status": "public",
+    "createdAt": "2023-05-01T14:00:00.000Z",
+    "updatedAt": "2023-05-01T14:00:00.000Z",
+    "comments": []
+  }
+]

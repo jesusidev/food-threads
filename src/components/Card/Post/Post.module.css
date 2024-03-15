@@ -1,0 +1,16 @@
+.icon {
+    height: rem(20px);
+    margin-right: rem(10px);
+    width: rem(20px);
+}
+
+.content {
+    padding: var(--mantine-spacing-md);
+}
+
+.sectionSplit {
+    border-bottom: rem(1px) solid var(--mantine-color-gray-3);
+    padding-bottom: var(--mantine-spacing-md);
+    padding-left: var(--mantine-spacing-md);
+    padding-right: var(--mantine-spacing-md);
+}
